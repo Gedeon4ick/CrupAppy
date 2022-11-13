@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gedeon4ick/pulse.git"
+    "url": "https://github.com/Gedeon4ick/CrupAppy"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gedeon4ick/pulse.git/issues"
+    "url": "https://github.com/Gedeon4ick/CrupAppy/issues"
   },
-  "homepage": "https://github.com/Gedeon4ick/pulse.git#readme",
+  "homepage": "https://github.com/Gedeon4ick/CrupAppy#readme",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
@@ -28,7 +28,10 @@
   },
   "dependencies": {
     "animate-sass": "^0.8.2",
+    "bootstrap": "^5.2.2",
     "gulp-imagemin": "^7.1.0",
-    "gulp-rename": "^2.0.0"
+    "gulp-rename": "^2.0.0",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
   }
 }
