@@ -1,10 +1,16 @@
 header{
     min-height: 100vh;
     background-color: #010225;
+    position: relative;
+    
+    
+    
+    
 }
 
 .menu{
     background-color: #0C0D2E;
+    z-index: 2;
 }
 
 .navbar-nav{
@@ -34,3 +40,4 @@ header{
     line-height: 16px;
     color: #FFFFFF;
 }
+
