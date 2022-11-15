@@ -1,0 +1,62 @@
+.benifit{
+    padding: 180px 0 160px 0;
+    min-height: 750px;
+    background-color: #0C0D2E;
+ 
+    &__titile{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 54px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__subtitle{
+        margin-top: 16px;
+        margin: 0 auto;
+        width: 700px;
+        font-weight: 400;   
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__card{
+        margin-top: 40px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        &_item{
+          
+            &-title{
+                margin-top: 12px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+            &-subtitle{
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 24px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &-link{
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                color: #159BE8;
+                span{
+                    height: 30px;
+                    width: 10px;
+                    background: #159BE8;
+                }
+            }
+        }
+    }
+
+}

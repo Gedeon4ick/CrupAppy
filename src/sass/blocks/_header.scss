@@ -1,11 +1,37 @@
-header{
+.header{
     min-height: 100vh;
     background-color: #010225;
     position: relative;
-    
-    
-    
-    
+    padding: 80px 0 160px 0;
+    .content{
+        position: relative;
+        &__img{
+            
+            img{
+                top: -189px;
+                width: 53%;
+                position: absolute;
+                transform: rotate(-25deg);
+                right: 0;
+            }
+        }
+        &__text{
+            width: 557px;
+            margin-top: 180px;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 76px;
+            color: #FFFFFF;
+        }
+        &__subtext{
+            width: 617px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 30px;
+            color: #FFFFFF;
+
+        }
+    }    
 }
 
 .menu{
